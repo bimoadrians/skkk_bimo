@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "225434075479",
+    "project_id": "mobile-apps-skkk-surakarta",
+    "storage_bucket": "mobile-apps-skkk-surakarta.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:225434075479:android:0cc741395fe7950e103e12",
+        "android_client_info": {
+          "package_name": "com.skkksurakarta.mobileapps"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5DxjFEr2OOB-mF5JB4iQomcqrFR6fXiI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

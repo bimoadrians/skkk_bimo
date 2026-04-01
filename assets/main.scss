@@ -1,0 +1,22 @@
+$blue: #013773;
+$info: #467599;
+$gray: #9BA4B5;
+$red: #b7151a;
+$orange: #fd7e14;
+$yellow: #ffca3a;
+$green: #136f63;
+$light: #faf0ca;
+$dark: #082032;
+
+$theme-colors: (
+	"primary": $blue,
+	"secondary": $gray,
+	"success": $green,
+	"info": $info,
+	"warning": $yellow,
+	"danger": $red,
+	"light": $light,
+	"dark": $dark
+);
+
+@import "assets/node_modules/bootstrap/scss/bootstrap";
