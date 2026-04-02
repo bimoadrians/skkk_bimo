@@ -32,7 +32,7 @@ $limit			= 1;
 $folder			= '';
 $query = '';
 
-if (strtolower($userId) == 'demo' and strtolower($psswd) == 'demo') {
+if ($userId == 'demo' and $psswd == 'demo') {
 	if ($status == 'Calon Siswa') {
 		$userId		= '62627260166';
 		$psswd	= '93482';
@@ -93,12 +93,6 @@ if ($status == 'Arisan') {
 	} else {
 		$isAccepted	= 'loginFailed';
 	}
-}
-
-if ($userId == '' ||  $psswd == '') {
-	$isAccepted	= 'loginFailed';
-} else {
-	$isAccepted	= 'loginAccepted';
 }
 
 $xxx = $response[0]->id_key . '-' . $nowUserId;
