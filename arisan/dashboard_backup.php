@@ -13,8 +13,6 @@ if ($mode != $mode_akses) {
 	die();
 }
 
-$titlePage		= 'Beranda - ' . APPS_NAME;
-$titleHeader	= 'Beranda';
 $userId			= strtolower($_REQUEST['user_id']);
 $today			= date('Y-m-d');
 $hariIni		= date('d-m-Y');
